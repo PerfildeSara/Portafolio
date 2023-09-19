@@ -1,0 +1,325 @@
+@import "../styles/variables/_colors.scss";
+@import "../styles/variables/_fonts.scss";
+
+
+.aboutMe{
+    background-color:$reallydarckblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:$blue;
+    font-family: $Quicksand;
+    bottom: 60px;
+    width: 100%;
+    padding-bottom: 80px;
+    border-top: 1px solid;
+    min-height: 90vh;
+    button{
+        border: 1px solid $blue;
+        border-radius:  8px;
+        background-color: $reallydarckblue;
+        color:$blue;
+        font-size: 17px;
+        width:fit-content;
+        height: 30px;
+        margin-left: 10px;
+    }
+    button:hover{
+        border-color: aqua;
+        color:aqua;
+    }
+        .skills{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 30px;
+           
+            .icon_name{
+                color:$white;
+            }
+            .aboutMe_left{
+                width: 33%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size:small;
+               h1{
+                margin: 0;
+                font-size:xx-large;
+               }
+                h2{
+                    
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    padding-top:20px;
+                    padding-bottom:100px;
+                   text-align: justify;
+                   margin: 0;
+                   font-weight: 500;
+                   color:$white;
+                }
+            }
+            button{
+                border: 1px solid $blue;
+                border-radius:  8px;
+                background-color: $reallydarckblue;
+                color:$blue;
+                font-size: 17px;
+                width:fit-content;
+                height: 30px;
+                margin-left: 10px;
+            }
+            button:hover{
+                border-color: aqua;
+                color:aqua;
+            }
+            .trueHardSkills{
+                background-color: $reallydarckblue;
+                width:33%;
+                padding-left: 50px;
+                padding-right: 50px;
+                .icon{
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    color:$blue;
+                    font-size: 45px;
+                }
+               
+                h1{
+                    margin:0;
+                    line-height: 1;
+                }
+                h1:hover{
+                    color:aqua;
+                }
+                h2{
+                    height: auto;
+                    font-weight: 300;
+                    width: 100%;
+                    color:$white;
+                    font-size: 16px;
+                    text-align: justify;
+                }
+                li{
+                    width: 75px;
+                    height: 75px;
+                    padding: 5px;
+                    border-radius: 6px;
+                    color:$blue;
+                    border-style: solid;
+                    border-width: 1px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin:10px;
+                    
+                }
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    padding-left: 0;
+                    
+                }
+            }
+            .falseHardSkills{
+                background-color: $reallydarckblue;
+                width: 33%;
+                padding-left: 50px;
+                padding-right: 50px ;
+                h1{
+                    line-height: 1;
+                }
+                h2{
+                    height: auto;
+                    font-weight: 400;
+                    width: 100%;
+                    color:$white;
+                    font-size: 18px;
+                    text-align: justify;
+                }
+            }
+            .trueSoftSkills{
+                width: 33%;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                padding-left: 70px;
+                padding-right: 20px;
+                h1{
+                    font-size: 30px;
+                    line-height: 1;
+                }
+                
+                h2{
+                    font-size: 20px;
+                }
+                h3{
+                    height: auto;
+                    font-weight: 300;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 16px;
+                    text-align: justify;
+                    color:$white;
+                }
+                li{
+                    width: 300px;
+                    height: 30px;
+                    padding: 5px;
+                    border-radius: 6px;
+                    border-color:$blue;
+                    border-style: solid;
+                    border-width: 1px;
+                    display: flex;
+                    flex-direction: row;
+                  
+                    align-items: center;
+                    margin:10px;
+                    .icon_softskills{
+                        font-size: 25px;
+                        padding-left: 5px;
+                        padding-right: 10px;
+                    }
+                    
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0px;
+                }
+              
+            }
+            .falseSoftSkills{
+                background-color: $reallydarckblue;
+                width: 33%;
+                padding-left: 70px;
+                padding-right: 70px ;
+                h1{
+                    margin-bottom: 0px;
+                }
+
+                h2{
+                    height: auto;
+                    font-weight: 400;
+                    width: 100%;
+                    font-size: 18px;
+                    text-align: justify;
+                    color:$white;
+                }
+                h3{
+                    height: auto;
+                    font-weight: 300;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 16px;
+                    text-align: justify;
+                    color:$white;
+                }
+            }
+            
+        }
+}
+@media screen and (max-width: 500px){
+    .aboutMe{
+        width: auto;
+        .title{
+            padding-left: 5%;
+            padding-right: 5%;
+            font-size: 43px;
+            text-align: center;
+        }
+        .skills{
+            flex-direction: column;
+            button{
+                font-size: 24px;
+                padding: 5px;
+                height: auto;
+                margin-top: 3vh;
+                margin-left: 0px;
+            }
+           
+            .aboutMe_left{
+                width: 100%;
+                h1{
+                    font-size: 5vh;
+                }
+                h2{
+                    font-size: 25px;
+                    font-weight: 300;
+                }
+            }
+            .trueHardSkills{
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-left:5%;
+                padding-right: 5%;
+                padding-bottom: 7vh;
+                h1{
+                    padding-left:5%;
+                    padding-right: 5%;
+                    font-size: 5vh;
+                   
+                }
+                h2{
+                    font-size: 2vh;
+                    font-weight: 300;
+                }
+                ul{
+                    width: 100%;
+                    justify-content: space-around;
+                    padding-left: 5%;
+                    padding-right: 5%;
+               
+                }
+            }
+            .falseHardSkills{
+                width: 80%;
+                padding-left: 10%;
+                padding-right: 10%;
+                h2{
+                    font-size: 25px;
+                    font-weight: 300;
+                }
+            }
+            .trueSoftSkills{
+                width:100%;
+                padding-bottom: 7vh;
+                padding-left: 5%;
+                padding-right: 5%;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    font-size: 5vh;
+                }
+                ul{
+                    width: 95%;
+                }
+                li{
+                    width: 80%;
+                }
+               
+            }
+            .falseSoftSkills {
+                width: 80%;
+                padding-left: 10%;
+                padding-right: 10%;
+                h2{
+                    font-size: 25px;
+                    font-weight: 300;
+                }
+              
+            }
+        }
+    
+    }
+}

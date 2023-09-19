@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+.page {
+  display: flex;
+  background-color: #07011C;
+  font-family: "Quicksand", "sans-serif";
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+.page h1 {
+  color: #3D91F5;
+  padding-top: 20px;
+}
+.page h3 {
+  color: #f0f8ff;
+  font-weight: 400;
+  text-align: justify;
+}
+.page .projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.page .projects .project_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3D91F5;
+  border-radius: 17px;
+  padding: 50px;
+  margin-top: 20px;
+}
+.page .projects .project_card .project_card_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.page .projects .project_card .project_card_left h1 {
+  color: #3D91F5;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: justify;
+  margin-top: 0px;
+}
+.page .projects .project_card .project_card_left img {
+  width: 80%;
+  height: auto;
+  margin: 0px;
+}
+.page .projects .project_card h3 {
+  width: 50%;
+  color: #f0f8ff;
+  text-align: justify;
+  margin: 0px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.page .projects .project_card:hover {
+  background-position: 100% 0;
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.99);
+  border: 1px solid #3D91F5;
+}
+
+@media screen and (max-width: 500px) {
+  .page {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .page .projects {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .page .projects .project_card {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+    border: none;
+    border-top: 1px solid #3D91F5;
+    border-radius: 0px;
+    border-bottom: 1px solid #3D91F5;
+  }
+  .page .projects .project_card .project_card_left {
+    width: 100%;
+  }
+  .page .projects .project_card .project_card_left img {
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+  }
+  .page .projects .project_card h3 {
+    width: 100%;
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=Projects.css.map */

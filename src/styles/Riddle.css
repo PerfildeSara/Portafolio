@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+.riddle_page {
+  background-color: #07011C;
+  color: #3D91F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", "sans-serif";
+  height: auto;
+  min-height: 95vh;
+}
+.riddle_page label {
+  color: #3D91F5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  height: 35px;
+  font-size: 25px;
+  margin: 30px;
+}
+.riddle_page input {
+  width: 200px;
+  height: 35px;
+  font-size: 40px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.riddle_page input[type=radio] {
+  display: none;
+}
+.riddle_page label:hover {
+  background-position: 100% 0;
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.99);
+  border: 1px solid aqua;
+  color: aqua;
+}
+.riddle_page button {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  background-color: #102540;
+  border: 1px solid #3D91F5;
+  color: #3D91F5;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.riddle_page button:hover {
+  background-position: 100% 0;
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.99);
+  border: 1px solid aqua;
+  color: aqua;
+}/*# sourceMappingURL=Riddle.css.map */

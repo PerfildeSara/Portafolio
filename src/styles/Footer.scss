@@ -1,0 +1,31 @@
+@import "../styles/variables/_colors.scss";
+@import "../styles/variables/_fonts.scss";
+
+
+.footer{
+    position:fixed;
+    background-color: $reallydarckblue;
+    width: 100%;
+    height: 7vh;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    color:$blue;
+    align-items: center;
+    justify-content: center;
+    font-family: $Quicksand;
+    border-top: 1px solid $blue;
+    a{
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    a:-webkit-any-link {
+        color:$blue;
+        text-decoration: none;
+        
+    }
+    a:hover{
+        color: aqua;
+    }
+   
+}

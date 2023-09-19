@@ -1,0 +1,67 @@
+@import "../styles/variables/_colors.scss";
+@import "../styles/variables/_fonts.scss";
+.experience_box{
+    background-color: $reallydarckblue;
+    font-family: $Quicksand;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top:71px;
+    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    
+.experience{
+       
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:$blue;
+    border: 1px solid $blue;
+    border-radius: 20px;
+    a:-webkit-any-link {
+        color: $white;
+        cursor: pointer;
+        text-decoration:none;
+    }
+    a:hover{
+        color:aqua;
+    }
+    p{
+        line-height: 1;
+    }
+    h1{
+        font-size: 50px;
+    }
+   h2{
+    font-weight: 600;
+    margin:0px;
+    color:$blue;
+   }
+    h3{
+        margin:0px;
+        font-weight: 400;
+        text-align: justify;
+        color: $white;
+    }
+    h4{
+        font-weight: 300; 
+        color: $white;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+}
+@media screen and (max-width: 500px){
+    .experience_box{
+        .experience{
+        border-top: none;
+        border-bottom: none;
+        }
+    }
+}

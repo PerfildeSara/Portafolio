@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+.aboutMe {
+  background-color: #07011C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3D91F5;
+  font-family: "Quicksand", "sans-serif";
+  bottom: 60px;
+  width: 100%;
+  padding-bottom: 80px;
+  border-top: 1px solid;
+  min-height: 90vh;
+}
+.aboutMe button {
+  border: 1px solid #3D91F5;
+  border-radius: 8px;
+  background-color: #07011C;
+  color: #3D91F5;
+  font-size: 17px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 30px;
+  margin-left: 10px;
+}
+.aboutMe button:hover {
+  border-color: aqua;
+  color: aqua;
+}
+.aboutMe .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.aboutMe .skills .icon_name {
+  color: #f0f8ff;
+}
+.aboutMe .skills .aboutMe_left {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: small;
+}
+.aboutMe .skills .aboutMe_left h1 {
+  margin: 0;
+  font-size: xx-large;
+}
+.aboutMe .skills .aboutMe_left h2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  text-align: justify;
+  margin: 0;
+  font-weight: 500;
+  color: #f0f8ff;
+}
+.aboutMe .skills button {
+  border: 1px solid #3D91F5;
+  border-radius: 8px;
+  background-color: #07011C;
+  color: #3D91F5;
+  font-size: 17px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 30px;
+  margin-left: 10px;
+}
+.aboutMe .skills button:hover {
+  border-color: aqua;
+  color: aqua;
+}
+.aboutMe .skills .trueHardSkills {
+  background-color: #07011C;
+  width: 33%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.aboutMe .skills .trueHardSkills .icon {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #3D91F5;
+  font-size: 45px;
+}
+.aboutMe .skills .trueHardSkills h1 {
+  margin: 0;
+  line-height: 1;
+}
+.aboutMe .skills .trueHardSkills h1:hover {
+  color: aqua;
+}
+.aboutMe .skills .trueHardSkills h2 {
+  height: auto;
+  font-weight: 300;
+  width: 100%;
+  color: #f0f8ff;
+  font-size: 16px;
+  text-align: justify;
+}
+.aboutMe .skills .trueHardSkills li {
+  width: 75px;
+  height: 75px;
+  padding: 5px;
+  border-radius: 6px;
+  color: #3D91F5;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.aboutMe .skills .trueHardSkills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.aboutMe .skills .falseHardSkills {
+  background-color: #07011C;
+  width: 33%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.aboutMe .skills .falseHardSkills h1 {
+  line-height: 1;
+}
+.aboutMe .skills .falseHardSkills h2 {
+  height: auto;
+  font-weight: 400;
+  width: 100%;
+  color: #f0f8ff;
+  font-size: 18px;
+  text-align: justify;
+}
+.aboutMe .skills .trueSoftSkills {
+  width: 33%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-left: 70px;
+  padding-right: 20px;
+}
+.aboutMe .skills .trueSoftSkills h1 {
+  font-size: 30px;
+  line-height: 1;
+}
+.aboutMe .skills .trueSoftSkills h2 {
+  font-size: 20px;
+}
+.aboutMe .skills .trueSoftSkills h3 {
+  height: auto;
+  font-weight: 300;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: justify;
+  color: #f0f8ff;
+}
+.aboutMe .skills .trueSoftSkills li {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 6px;
+  border-color: #3D91F5;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+.aboutMe .skills .trueSoftSkills li .icon_softskills {
+  font-size: 25px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.aboutMe .skills .trueSoftSkills ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+.aboutMe .skills .falseSoftSkills {
+  background-color: #07011C;
+  width: 33%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.aboutMe .skills .falseSoftSkills h1 {
+  margin-bottom: 0px;
+}
+.aboutMe .skills .falseSoftSkills h2 {
+  height: auto;
+  font-weight: 400;
+  width: 100%;
+  font-size: 18px;
+  text-align: justify;
+  color: #f0f8ff;
+}
+.aboutMe .skills .falseSoftSkills h3 {
+  height: auto;
+  font-weight: 300;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: justify;
+  color: #f0f8ff;
+}
+
+@media screen and (max-width: 500px) {
+  .aboutMe {
+    width: auto;
+  }
+  .aboutMe .title {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 43px;
+    text-align: center;
+  }
+  .aboutMe .skills {
+    flex-direction: column;
+  }
+  .aboutMe .skills button {
+    font-size: 24px;
+    padding: 5px;
+    height: auto;
+    margin-top: 3vh;
+    margin-left: 0px;
+  }
+  .aboutMe .skills .aboutMe_left {
+    width: 100%;
+  }
+  .aboutMe .skills .aboutMe_left h1 {
+    font-size: 5vh;
+  }
+  .aboutMe .skills .aboutMe_left h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .aboutMe .skills .trueHardSkills {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7vh;
+  }
+  .aboutMe .skills .trueHardSkills h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 5vh;
+  }
+  .aboutMe .skills .trueHardSkills h2 {
+    font-size: 2vh;
+    font-weight: 300;
+  }
+  .aboutMe .skills .trueHardSkills ul {
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .aboutMe .skills .falseHardSkills {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .aboutMe .skills .falseHardSkills h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .aboutMe .skills .trueSoftSkills {
+    width: 100%;
+    padding-bottom: 7vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutMe .skills .trueSoftSkills h1 {
+    font-size: 5vh;
+  }
+  .aboutMe .skills .trueSoftSkills ul {
+    width: 95%;
+  }
+  .aboutMe .skills .trueSoftSkills li {
+    width: 80%;
+  }
+  .aboutMe .skills .falseSoftSkills {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .aboutMe .skills .falseSoftSkills h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}/*# sourceMappingURL=AboutMe.css.map */

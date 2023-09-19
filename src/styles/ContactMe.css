@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+.contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Quicksand", "sans-serif";
+  background-color: #07011C;
+  width: 100vw;
+  min-height: 100vh;
+}
+.contactme li:hover {
+  background-position: 100% 0;
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.99);
+  border: 1px solid #3D91F5;
+}
+.contactme h1 {
+  color: #3D91F5;
+  font-size: 45px;
+  margin: 0;
+  padding-top: 10vh;
+}
+.contactme h2 {
+  color: #f0f8ff;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0px;
+}
+.contactme li {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #8BBEFD;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+.contactme ul {
+  padding-right: 0px;
+}
+.contactme ul a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+.contactme .icon {
+  color: #3D91F5;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .contactme {
+    height: auto;
+    min-height: auto;
+    width: 100%;
+    padding-bottom: 13vh;
+  }
+  .contactme h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 12vw;
+    padding-bottom: 20px;
+  }
+  .contactme ul {
+    padding-left: 0px;
+  }
+  .contactme ul li {
+    height: auto;
+    width: 80vw;
+    margin-left: 0px;
+    overflow: scroll;
+    word-wrap: break-word;
+  }
+  .contactme ul li h2 {
+    height: auto;
+    min-height: auto;
+    overflow: break-word;
+    overflow: scroll;
+  }
+}/*# sourceMappingURL=ContactMe.css.map */
