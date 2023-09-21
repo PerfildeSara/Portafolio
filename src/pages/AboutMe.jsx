@@ -110,7 +110,8 @@ const AboutMe = () => {
                                 <button onClick={handleHardSkillsChange}>See more</button> 
                             </div>) :
                             <div className="falseHardSkills"> 
-                                <h2>I'm a certified developer with skills in Java and JavaScript programming, MySQL database management, dynamic UI development using React.js, and version control with GitHub. Additionally, I design attractive user experiences with HTML5 and CSS, enhance aesthetics with Sass, and use Figma for creating prototypes and layouts to ensure exceptional user experiences in every project I undertake</h2>  
+                            <h1>Technical skills</h1>
+                                <h2>I'm a certified developer with skills in Java and JavaScript programming, MySQL database management, dynamic UI development using React.js, and version control with GitHub. Additionally, I design attractive user experiences with HTML5 and CSS, enhance aesthetics with Sass, and use Figma for creating prototypes and layouts to ensure exceptional user experiences in every project I undertake.</h2>  
                                 <button onClick={handleHardSkillsChange}>Back</button>
                             </div>
                     }
@@ -123,6 +124,7 @@ const AboutMe = () => {
                                 <button onClick={handleSoftSkillsChange}>See more</button> 
                             </div>) :
                             <div className="falseSoftSkills">
+                                <h1>My soft Skills</h1>
                                 <h2>My profession as a lawyer has taught me many soft skills. I consider myself a person with a strong sense of humanity, and I continuously strive to improve my interpersonal skills in all aspects of my life. I have learned that assertive communication builds bridges. Additionally, from my work and educational experiences, I've come to appreciate the importance of teamwork, the enrichment that interdisciplinary teams bring, and what it takes to achieve a common goal.</h2> 
 
                                  <h1>Postgraduate in Human Rights and International Humanitarian Law</h1><h3>Universidad de Antioquia  |  Jan 2019 - Jan 2020 </h3>

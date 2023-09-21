@@ -58,7 +58,6 @@
 
 @media screen and (max-width: 500px){
     .contactme{
-    
     height: auto;
     min-height: auto;
     width: 100%;
@@ -91,5 +90,17 @@
        
     }
   
+    }
+}
+@media (min-width: 501px) and (max-width: 900px){
+    .contactme{
+        height: auto;
+     
+        width: 100%;
+        h1{
+            font-weight: 5vw;
+            margin-top: 15%;
+            margin-bottom: 3%;
+        }
     }
 }

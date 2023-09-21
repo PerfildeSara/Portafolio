@@ -7,11 +7,7 @@ import '../styles/ContactMe.css'
 
 const ContactMe = () => {
     const contacts = [
-        {
-            icon: <FontAwesomeIcon icon={faMobileScreen} />,
-            name:'+57 3123685048',
-            link:null
-        },
+        
         {
             icon: <FontAwesomeIcon icon={faEnvelope} />,
             name:'saraalvaradoderecho@gmail.com',

@@ -21,7 +21,7 @@
   border-radius: 20px;
 }
 .experience_box .experience a:-webkit-any-link {
-  color: #f0f8ff;
+  color: #C8CDD0;
   cursor: pointer;
   text-decoration: none;
 }
@@ -43,11 +43,11 @@
   margin: 0px;
   font-weight: 400;
   text-align: justify;
-  color: #f0f8ff;
+  color: #C8CDD0;
 }
 .experience_box .experience h4 {
   font-weight: 300;
-  color: #f0f8ff;
+  color: #C8CDD0;
   margin-top: 13px;
   margin-bottom: 13px;
   margin-left: 0px;
@@ -58,5 +58,27 @@
   .experience_box .experience {
     border-top: none;
     border-bottom: none;
+  }
+}
+@media (min-width: 501px) and (max-width: 900px) {
+  .experience_box {
+    height: auto;
+  }
+  .experience_box .experience {
+    margin-bottom: 5%;
+  }
+  .experience_box .experience h1 {
+    font-size: 40px;
+  }
+  .experience_box .experience h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .experience_box .experience h3 {
+    font-size: 28px;
+    padding-top: 10px;
+  }
+  .experience_box .experience h4 {
+    font-size: 23px;
   }
 }/*# sourceMappingURL=Experience.css.map */

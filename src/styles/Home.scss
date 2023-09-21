@@ -7,10 +7,12 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 100vh;
     font-family:$Quicksand;
     border-top: 1px solid $blue;
+    padding-left: 5%;
+    padding-right: 5%;
     span{
         color:$white;
         font-weight: 700;
@@ -36,7 +38,7 @@
         }
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     .home{
         display: flex;
         flex-direction: column;

@@ -38,7 +38,7 @@
   padding-right: 15px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   .header .header_laptop {
     display: none;
   }
@@ -71,6 +71,7 @@
     color: aqua;
   }
   .header .header_responsive button {
+    text-align: center;
     width: 50px;
     height: 50px;
     font-size: 35px;
