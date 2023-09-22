@@ -30,7 +30,7 @@ const Riddle = () => {
     return (
         <div className="riddle_page">
             <h1>In progress</h1>
-            <FontAwesomeIcon icon={faGear} spin />
+            <FontAwesomeIcon className="icon" icon={faGear} spin />
             
            
         </div>

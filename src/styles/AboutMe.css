@@ -80,8 +80,6 @@
   align-items: center;
   background-color: #07011C;
   width: 33%;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .aboutMe .skills .trueHardSkills .icon {
   padding-right: 5px;
@@ -122,8 +120,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-left: 0;
+  justify-content: flex-start;
+  padding-left: 5%;
 }
 .aboutMe .skills .falseHardSkills {
   background-color: #07011C;
@@ -148,8 +146,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 70px;
-  padding-right: 20px;
 }
 .aboutMe .skills .trueSoftSkills h1 {
   font-size: 30px;
@@ -389,25 +385,28 @@
   .aboutMe .skills .trueSoftSkills {
     width: 90%;
     padding-bottom: 7vh;
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top: 5%;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .aboutMe .skills .trueSoftSkills h1 {
     font-size: 5vh;
+    padding-left: 10%;
   }
   .aboutMe .skills .trueSoftSkills ul {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 85%;
+    padding-left: 5%;
   }
   .aboutMe .skills .trueSoftSkills li {
     width: 80%;
     font-size: x-large;
     font-weight: 300;
+  }
+  .aboutMe .skills .trueSoftSkills button {
+    margin-left: 13%;
   }
   .aboutMe .skills .falseSoftSkills {
     width: 90%;

@@ -10,6 +10,9 @@
   height: auto;
   min-height: 95vh;
 }
+.riddle_page .icon {
+  font-size: 50px;
+}
 .riddle_page label {
   color: #3D91F5;
   padding-top: 20px;
