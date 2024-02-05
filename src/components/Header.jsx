@@ -31,7 +31,7 @@ return(
                         <Link to={routes.aboutMe}>About me</Link>
                         <Link to={routes.experience}>Experience</Link>
                         <Link to={routes.projects}>Projects</Link>
-                        <Link to={routes.twoThruthsAndOneLie}>Two thruths and a lie</Link>
+                       {/*  <Link to={routes.twoThruthsAndOneLie}>Two thruths and a lie</Link>*/}
                         <Link to={routes.contact}>Contact</Link>
 
                     </ul>
