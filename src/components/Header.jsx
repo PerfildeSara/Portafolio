@@ -31,7 +31,7 @@ return(
                         <Link to={routes.aboutMe}>About me</Link>
                         <Link to={routes.experience}>Experience</Link>
                         <Link to={routes.projects}>Projects</Link>
-                       {/*  <Link to={routes.twoThruthsAndOneLie}>Two thruths and a lie</Link>*/}
+                       {/*  <Link to={routes.twoThruthsAndOneLie}>Two thruths and a lie</Link>   ---------------- puzzle -------------- */}
                         <Link to={routes.contact}>Contact</Link>
 
                     </ul>
@@ -54,7 +54,7 @@ return(
                             <Link to={routes.aboutMe} onClick={hanbleSelected}>About me</Link>
                             <Link to={routes.experience} onClick={hanbleSelected}>Experience</Link>
                             <Link to={routes.projects} onClick={hanbleSelected}>Projects</Link>
-                            <Link to={routes.twoThruthsAndOneLie} onClick={hanbleSelected}>Two thruths and a lie</Link>
+                           {/* <Link to={routes.twoThruthsAndOneLie} onClick={hanbleSelected}>Two thruths and a lie</Link>   ---------------- puzzle -------------- */}
                             <Link to={routes.contact} onClick={hanbleSelected}>Contact</Link>
                         </ul>
                     </nav>
